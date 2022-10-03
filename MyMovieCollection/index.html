@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE</title>
+
+    <link rel="stylesheet" href="./CSS/index.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="Tabs">
+        <H1>THE MOVIE</H1>
+        <div class="wrap-header">
+
+            <ul class="shell">
+                <li class="button"><a href ="./index.html"> <span>Main</span></a></li>
+                <li class="button">
+                    <a href="./Horror.html"><span>Horror</span></a>
+
+                </li>
+                <li class="button">
+                    <a href="Adventure.html"><span>Adventure</span></a>
+                </li>
+
+                <li class="button">
+                    <a href="Animated.html"> <span>Animated</span></a>
+                </li>
+                <li class="button">
+                    <a href="Action.html"><span>Action</span></a>
+                </li>
+            </ul>
+            <div class="Background"><img src="./images/action.jpg"></div>
+        </div>
+    </div>
+
+</header>
+<h1>THE BEST OF THIS YEAR</h1>
+    <div class="body1">
+        <div class="box1"><img src="./images/adventure.jpg">Jurassic World Dominion 3</div>
+        <div class="box2"><img src="./images/animated.jpg">Minions 3</div>
+        <div class="box3"><img src="./images/spider-man-no-way-home.jpg">Spider man-No way home</div>
+    </div>
+
+    <div class="StopIamge">
+        <div class="StopIamgeName">OsCar</div>
+    </div>
+    <div class="apartments">
+        <section>
+            <iframe width="1500" height="900" src="https://www.youtube.com/embed/a8Gx8wiNbs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <ul class="navigation">
+                <li onclick="videoUrl()"><img src="./images/Avatar_The_Way_of_Water_poster.jpg"></li>
+                <li onclick="videoUrl()"><img src="./images/Spider2.jpg"></li>
+                <li onclick="videoUrl()"><img src="./images/planet.jpg"></li>
+                <li onclick="videoUrl()"><img src="./images/got.jpg"></li>
+            </ul>
+        </section>
+        <script type="text/javascript">
+            function videoUrl(playlist) {
+                document.getElementById("slider").src = playlist;
+            }
+        </script>
+    </div>
+    </div>
+
+</body>
+
+</html>

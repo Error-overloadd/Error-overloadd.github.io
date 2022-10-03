@@ -1,0 +1,372 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Tabs{
+    width: 1500px;
+    height: 870px;
+    background-image: linear-gradient(rgb(200,255, 206),rgb(212,242,123));
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.wrap-header{
+    width: 1200px;
+    margin-top: 60px;
+    background-color: rgb(198,226,178);
+    height: 750px;
+    position: absolute;
+
+
+}
+
+.shell{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: rgb(198,226,178);
+    width: 170px;
+    height: 65px;
+    text-align: center;
+   line-height: 65px;
+   transition: .3s;
+   cursor: pointer;
+   font-size: 25px;
+}
+
+.button:hover{
+    background-color: #bbffaa ;
+}
+.button li:hover{
+    background-color: #44ffff;
+}
+.button ul li{
+    height: 0;
+    transition: .2s;
+    opacity: 0;
+    transform: translateY(-65px);
+    background-color: rgb(210,220,221);
+}
+.button:hover li{
+    height: 65px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.portrait:hover .information{
+    opacity: 1;
+    line-height: 65px;
+    transform: translate(-20px,-10px);
+    height: auto;
+}
+.nav li:hover{
+    background-color: rgb(217,228,138);
+} 
+.atupian{
+    width: 1200px;
+    background-color: #F4BBBB;
+}
+.atupian img{
+    width: 1200px;
+    height: 520px;
+}
+.body1{
+    width: 1519.2px;
+    padding: 40px;
+    height: 400px;
+    background-image: linear-gradient(rgb(31, 211, 238),rgb(212,242,123));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.box1, .box2,.box3{
+    width: 300px;
+    height: 380px;
+    background-color: #b66e62;  
+    color: cornsilk;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.box1 img, .box2 img,.box3 img{
+    /* width: 370px; */
+    margin-bottom: 27px;
+    height: 250px;
+    width: 100%;
+    opacity: .95;
+    transition: .6s;
+}
+.body1 img:hover{
+    transform: scale(1.2);
+}
+.listOfBest{
+    display: flex;
+    flex-direction: row;
+    width: 1519.2px;
+    height: 300px;
+    background-image: linear-gradient(rgb(212,242,123),rgb(255, 242, 146));
+    justify-content: space-around;
+}
+
+.StopIamge{
+    width: 1600px;
+    height: 450px;
+    background-color: transparent;
+    background-attachment: fixed;
+    background-image: url(../images/oscar.jpg);
+    background-size: contain;
+    background-position: center;
+    width: 1330px;
+    margin: 0 auto;
+
+ }
+.StopIamgeName{
+    position: center;
+    background-color: rgb(30,32,33);
+}
+
+
+.apartments{
+    width: 1519.2px;
+    height: 900px;
+    background-image: linear-gradient(rgb(253, 242, 153),rgb(125, 205, 248));
+}
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+section
+{
+    position: relative;
+    width: 100%;
+}
+section video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1400px;
+    height: 750px;
+    object-fit: cover;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+section .navigation
+{
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .navigation li{
+    list-style: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 3px 3px 0;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+section .navigation li:hover{
+    opacity: 1;
+}
+section .navigation li img{
+    width: 120px;
+    transition: 0.5s;
+}
+section .navigation li img:hover{
+    width: 200px;
+}
+
+
+.Horror_style{
+    width: 1400px;
+    height: 370px;
+     background-color: rgb(212,242,123);
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    margin-top: 20px;
+}
+.a{
+    width: 592px;
+    height: 370px;
+    background-color: royalblue;
+}
+.b{
+    width: 600px;
+    height: 370px;
+    background-color: #fff;
+    color: black;
+    padding-top: 70px;
+    font-size: 30px;
+    /* padding-top: 70px;
+    padding-left: 30px; */
+    text-align: center;
+}
+.c img .a img{
+    width: 592px;
+    height: 370px;
+}
+.Backgroudcolor_Horror{
+
+    width: 1500PX;
+    height: 1544px;
+    background-color: rgb(198,226,178);
+    justify-content: space-around;
+    padding-left: 100px;
+
+}
+.Backgrounder_Animated{
+    width: 1500PX;
+    height: 450px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+#customers{
+    position: absolute;
+    border-collapse: collapse;
+    align-self: center;
+    align-content: flex-end;
+}
+.HM_D{
+    width: 1519.2px;
+    height: 100px;
+    background-color: blanchedalmond;
+    color: black;
+    font-size: 25px;
+    padding-top: 40px;
+    /*background-image: url(../images/140808162852-hayao-miyazaki-spirited-away.png);*/
+}
+.R_p{
+    width: 1500PX;
+    height: 1500px;
+    background-color: #c6daa7;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container .card{
+    margin-top: 100px;
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+    transition: .1s ease-in-out;
+}
+
+.container .card:hover{
+    height: 420px;
+}
+
+.container .card .imgBx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.container .card .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: .3s;
+}
+.Adventure_backgroud table{
+    width: 1500PX;
+    height: 700px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+
+}
+table {
+    border-collapse: collapse;
+    width: 1000%;
+}
+
+th, td {
+    padding: 60px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+
+.Action-container{
+    width: 600px;
+    margin: 40px auto 0;
+    border: #bbffaa;
+
+
+}
+.Action_title{
+    padding: 20px;
+    color: #111111;
+
+}
+ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 10px;
+    margin-left: 30px;
+
+
+}
+.action_platlist{
+    width: 1400px;
+    height: 370px;
+    background-color: rgb(212,242,123);
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    margin-top: 20px;
+}
+#list{
+    font-size:xx-large;
+}
