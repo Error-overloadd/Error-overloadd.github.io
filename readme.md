@@ -24,7 +24,7 @@ We had two way to compile our application. <br>
 GitHub link: https://github.com/HuanjunZhao/SENG-513-WebDevelop <br>
 Step by Step: <br>
 Make a new directory<br>
-  mkdir group13 <br>
+&nbsp;  mkdir group13 <br>
   cd group13 <br>
 Clone the repository <br>
   git clone https://github.com/HuanjunZhao/SENG-513-WebDevelop.git <br>
