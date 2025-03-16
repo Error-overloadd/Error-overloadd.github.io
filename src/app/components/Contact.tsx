@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Contact Me</h2>
           <div className="mt-2 w-20 h-1 bg-blue-600 mx-auto rounded-full"></div>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Feel free to reach out to me for any questions or opportunities. I'll get back to you as soon as possible.</p>
+          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">Feel free to reach out to me for any questions or opportunities. I will get back to you as soon as possible.</p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -45,7 +45,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-sm font-medium text-gray-500 uppercase tracking-wider">Email</h4>
                   <p className="text-lg font-semibold text-gray-800">liudongjie1119@gmail.com</p>
-                  <p className="text-xs text-gray-500 mt-1">I'll respond within 24 hours</p>
+                  <p className="text-xs text-gray-500 mt-1">I will respond within 24 hours</p>
                 </div>
               </div>
               

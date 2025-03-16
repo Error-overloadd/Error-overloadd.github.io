@@ -5,15 +5,7 @@ import derekphoto from "/public/images/derek.png" // 修改图片导入路径
 
 
 const Hero = () => {
-  const handleDownloadCV = () => {
-    // 创建一个隐藏的 a 标签
-    const link = document.createElement('a');
-    link.href = '/DerekLiu.pdf';
-    link.download = 'DerekLiu.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+
 
   return (
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-gray-100 pt-16">
