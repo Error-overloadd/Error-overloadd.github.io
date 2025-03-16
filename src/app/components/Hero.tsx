@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import derekphoto from "/public/images/derek.png" // 修改图片导入路径
-import { GrLinkedin } from "react-icons/gr";
+
 
 const Hero = () => {
   const handleDownloadCV = () => {
